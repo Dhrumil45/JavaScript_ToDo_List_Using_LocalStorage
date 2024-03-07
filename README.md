@@ -1,6 +1,7 @@
 # JavaScript_ToDo_List_Using_LocalStorage
 
 I am uploading all my projects from last year. Things will get real hot soon.
+
 A simple JavaScript To-Do list application that allows users to add, edit, and delete tasks. The application uses LocalStorage of browser to store user data even after the browser is closed. 
 
 Functionality: 
