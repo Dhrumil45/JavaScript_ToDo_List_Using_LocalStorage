@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>To Do || List Page</title>
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="main-nav">
+        <a href="index.html" class="logo">Dhrumil To Do List</a>
+
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="todotask.html">To Do Task</a></li>
+          <li><a href="features.html">Features</a></li>
+        </ul>
+      </div>
+
+      <div class="sub-nav">
+        <ul>
+          <li>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fab fa-instagram-square"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <div class="wrapper">
+      <div class="task-input">
+        <img src="images/right.svg" alt="icon" />
+        <input type="text" placeholder="Add a new task here" />
+      </div>
+      <div class="controls">
+        <div class="filters">
+          <span class="active" id="all">All</span>
+          <span id="pending">Pending</span>
+          <span id="completed">Completed</span>
+        </div>
+        <button class="clear-btn">Clear</button>
+      </div>
+      <ul class="task-box"></ul>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
